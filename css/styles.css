@@ -3094,7 +3094,7 @@ textarea.form-control.is-invalid {
   display: inline-block;
   font-weight: 500;
   line-height: 1.5;
-  color: var(--bs-blue);
+  color: white;
   text-align: center;
   text-decoration: none;
   vertical-align: middle;
@@ -3139,11 +3139,11 @@ fieldset:disabled .btn {
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #232fcc;
+  background-color: #404be2;
 }
 .btn-check:focus + .btn-primary,
 .btn-primary:focus {
-  color: var(--bs-blue);
+  color: #fff;
   background-color: #232fcc;
   border-color: #212cc0;
   box-shadow: 0 0 0 0.25rem rgba(73, 85, 242, 0.5);
@@ -6382,15 +6382,21 @@ fieldset:disabled .btn {
 
 /* rtl:end:ignore */
 .carousel-fade .carousel-item {
-  opacity: 0;
-  transition-property: opacity;
-  transform: none;
+  left:0;
+  opacity:0;
+  -webkit-transition: opacity 0.5s; /*time < to $.carousel.interval setup */
+  -moz-transition: opacity 0.5s; 
+  -ms-transition: opacity 0.5s; 
+  -o-transition: opacity 0.5s; 
+  transition: opacity  0.5s;
+  z-index:2;
 }
 .carousel-fade .carousel-item.active,
 .carousel-fade .carousel-item-next.carousel-item-start,
 .carousel-fade .carousel-item-prev.carousel-item-end {
   z-index: 1;
   opacity: 1;
+  left: 0;
 }
 .carousel-fade .active.carousel-item-start,
 .carousel-fade .active.carousel-item-end {
@@ -11920,7 +11926,7 @@ footer a:focus {
 .masthead {
   background-color: var(--bs-blue);
   padding-top: 3rem;
-  padding-bottom: 30rem;
+  padding-bottom: 35rem;
 }
 .masthead .masthead-device-mockup {
   display: flex;
@@ -12326,7 +12332,7 @@ p {
 .box-solucion {
   width: 90%;
   position: absolute;
-  top: 76%;
+  top: 90%;
   left: 5%;
   transform: translateY(0%);
   z-index: 1000;
@@ -12427,7 +12433,25 @@ header .overlay {
 .footer-box {
   margin-top: 50px;
 }
+
+.logo-pna{
+  width: 55%;
+}
+
 /*Media Query*/
+
+@media (min-width: 1920px){
+  .box-solucion {
+   
+    top: 70%;
+    left: 8%;
+    
+  }
+
+  .logo-pna{
+    width: 45%;
+  }
+}
 
 @media (max-width: 575.98px) {
   .fs-58 {
