@@ -12332,7 +12332,7 @@ p {
 .box-solucion {
   width: 90%;
   position: absolute;
-  top: 90%;
+  top: 98%;
   left: 5%;
   transform: translateY(0%);
   z-index: 1000;
