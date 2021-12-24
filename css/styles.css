@@ -12445,7 +12445,6 @@ header .overlay {
    
     top: 70%;
     left: 8%;
-    
   }
 
   .logo-pna{
@@ -12454,7 +12453,8 @@ header .overlay {
   
 }
 
-  
+/* Media Query cellphones*/
+
 @media (max-width: 575.98px) {
   .fs-58 {
     font-size: 3.2rem;
@@ -12495,6 +12495,8 @@ header .overlay {
 
   .img-pantalla {
     width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .btn {
     width: 100%;
@@ -12523,4 +12525,27 @@ header .overlay {
     flex: 0 0 auto;
     width: 50%;
   }
+  .box-solucion{
+    position: relative;
+
+  }
+ #solucion-segura{
+  padding-top: 30px;
+ }
+ 
+ .masthead{
+  padding-top: 1rem;
+  padding-bottom: 45rem;
+ }
+
+ .logo-inmuta{
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+   padding-bottom: 30px;
+ }
+
+ #contacto{
+   padding-bottom: 3rem;
+ }
 }
