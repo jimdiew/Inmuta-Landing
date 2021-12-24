@@ -257,16 +257,16 @@
 -->
 
 <!--Caso de exito-->
-<section id="caso-exito" class="pt-5 bg-lightblue">
-  <div class="containter py-4 px-5">
+<section id="caso-exito" class="pt-5 py-5 bg-lightblue">
+  <div class="containter py-5 px-5">
     <div class="text-center pb-5">
       <h2>Conocé uno de nuestros casos de éxito</h2>
     </div>
     <div class="row px-4 pt-3">
       <div class="col-md-6 col-12 px-5 d-flex justify-content-center align-items-center"><img src="assets/img/pna-logo.jpg" alt="Logo Prefectura Naval Argentina" class="img-fluid border-radius logo-pna"></div>
-      <div class="col-md-6 col-12 px-5  "><p class="fs-16  py-3 fst-italic ">"Trabajamos en equipo, fue muy rápido el proceso y no hemos tenido inconvenientes... estamos super contentos porque somos innovadores y pioneros en cumplir con las recomendaciones, somos los primeros en la región y entre los primeros en el mundo que estamos implementando certificados electronicos, la firma digital y Blockchain. Nos pone en un lugar adelantado con respecto a otras administraciones." </p>
-      <p class="fw-medium fs-16">- Elbio Quinteros, Jefe de desarrollo de proyectos de Prefectura Naval Argentina</p>
-      <a  href="./assets/CasoDeExito_PNA.pdf" download ><button class="fw-normal  btn btn-primary btn-shadow btn-mobile mt-3" type="button">Seguir leyendo <i class="bi bi-download"></i></button></a>
+      <div class="col-md-6 col-12 px-5 "><p class="fs-16  py-3 fst-italic mx-4">"Trabajamos en equipo, fue muy rápido el proceso y no hemos tenido inconvenientes... estamos super contentos porque somos innovadores y pioneros en cumplir con las recomendaciones, somos los primeros en la región y entre los primeros en el mundo que estamos implementando certificados electronicos, la firma digital y Blockchain. Nos pone en un lugar adelantado con respecto a otras administraciones." </p>
+      <p class="fw-medium fs-16 mx-4">- Elbio Quinteros, Jefe de desarrollo de proyectos de Prefectura Naval Argentina</p>
+      <a  href="./assets/CasoDeExito_PNA.pdf" download ><button class="fw-normal  btn btn-primary btn-shadow btn-mobile mt-3 mx-4" type="button">Seguir leyendo <i class="bi bi-download"></i></button></a>
     </div>
     </div>
   </div>
@@ -278,15 +278,15 @@
 <section id="nosotros" class="pt-5">
   <div class="container py-4">
     <div class="row px-4">
-      <div class="col-12 col-md-6">
+      <div class="col-12 col-md-6 pe-3">
         <h2 class="fs-42 py-2 fw-bold">Ahora tu transformación digital es más simple</h2>
-        <p class="fs-16 fw-light py-3 pb-5">Somos una empresa argentina, de desarrollo de software y soluciones IT, con más de  20 años de trayectoria. Exportamos servicios a USA, México, Bolivia y estamos en expansión hacia nuevos mercados. 
+        <p class="fs-16 fw-light py-3 pb-3 pe-4">Somos una empresa argentina, de desarrollo de software y soluciones IT, con más de  20 años de trayectoria. Exportamos servicios a USA, México, Bolivia y estamos en expansión hacia nuevos mercados. 
         Contamos con certificación de normas de calidad ISO 9001 y  con más de 200 colaboradores de distintos puntos del país.</p>
         <a  href="https://ayi.group/" target="_blank"><button class="fw-normal  btn btn-primary btn-shadow btn-mobile mb-4" type="button">Ver más info <i class="bi bi-arrow-right"></i></button></a>
         
         <p class="gray-text-darker fw-medium my-5">Somos socios estratégicos de</p>
          
-        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-interval="10000" data-bs-ride="carousel">
+        <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img class="d-block w-50" src="assets/img/hylandlogo.png" alt="First slide">
@@ -526,6 +526,10 @@ for (i = 0; i < coll.length; i++) {
     }
   );
 </script>
-
+<script>
+  $('.carousel').carousel({
+  interval: 3000
+})
+</script>
   </body>
 </html>

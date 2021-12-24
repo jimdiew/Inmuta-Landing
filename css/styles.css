@@ -6355,7 +6355,7 @@ fieldset:disabled .btn {
   margin-right: -100%;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  transition: transform 0.6s ease-out left;
+  transition: transform 0.2s ease-out left;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
@@ -6384,11 +6384,11 @@ fieldset:disabled .btn {
 .carousel-fade .carousel-item {
   left:0;
   opacity:0;
-  -webkit-transition: opacity 0.5s; /*time < to $.carousel.interval setup */
-  -moz-transition: opacity 0.5s; 
-  -ms-transition: opacity 0.5s; 
-  -o-transition: opacity 0.5s; 
-  transition: opacity  0.5s;
+  -webkit-transition: opacity 0.2; /*time < to $.carousel.interval setup */
+  -moz-transition: opacity 0.2s; 
+  -ms-transition: opacity 0.2s; 
+  -o-transition: opacity 0.2s; 
+  transition: opacity  0.2s;
   z-index:2;
 }
 .carousel-fade .carousel-item.active,
@@ -6509,7 +6509,7 @@ fieldset:disabled .btn {
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   opacity: 0.5;
-  transition: opacity 0.6s ease;
+  transition: opacity 0.2s ease;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators [data-bs-target] {
@@ -12318,7 +12318,7 @@ p {
 }
 
 #solucion-segura {
-  padding-top: 300px;
+  padding-top: 280px;
 }
 
 .box-interconomy {
