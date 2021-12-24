@@ -12435,10 +12435,10 @@ header .overlay {
 }
 
 .logo-pna{
-  width: 55%;
+  width: 80%;
 }
 
-/*Media Query*/
+/*Media Query Big Screen*/
 
 @media (min-width: 1920px){
   .box-solucion {
@@ -12451,8 +12451,12 @@ header .overlay {
   .logo-pna{
     width: 45%;
   }
+  .parrafo-casoexito{
+    width: 70%;
+  }
 }
 
+  
 @media (max-width: 575.98px) {
   .fs-58 {
     font-size: 3.2rem;
