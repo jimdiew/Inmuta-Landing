@@ -6384,11 +6384,11 @@ fieldset:disabled .btn {
 .carousel-fade .carousel-item {
   left:0;
   opacity:0;
-  -webkit-transition: opacity 0.2; /*time < to $.carousel.interval setup */
-  -moz-transition: opacity 0.2s; 
-  -ms-transition: opacity 0.2s; 
-  -o-transition: opacity 0.2s; 
-  transition: opacity  0.2s;
+  -webkit-transition: opacity 1; /*time < to $.carousel.interval setup */
+  -moz-transition: opacity 1s; 
+  -ms-transition: opacity 1s; 
+  -o-transition: opacity 1s; 
+  transition: opacity  1s;
   z-index:2;
 }
 .carousel-fade .carousel-item.active,
@@ -6402,7 +6402,7 @@ fieldset:disabled .btn {
 .carousel-fade .active.carousel-item-end {
   z-index: 0;
   opacity: 0;
-  transition: opacity 0s 0.1s;
+  transition: opacity 0s 1s;
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
