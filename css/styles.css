@@ -12455,7 +12455,7 @@ header .overlay {
   }
 }
 
-/* Media Query cellphones*/
+/* Media Query mobile*/
 
 @media (max-width: 575.98px) {
   .fs-58 {
@@ -12483,6 +12483,18 @@ header .overlay {
   .fs-35 {
     font-size: 2.188rem;
   }
+
+  .fs-42 {
+    font-size: 2.2rem;
+  }
+
+  .fs-52 {
+    font-size: 2.1rem;
+  }
+  .fs-16 {
+    font-size: 1.1rem;
+  } 
+
   #inmuta-logo {
     display: inline-block;
     padding-left: 15px;
