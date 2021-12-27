@@ -12450,14 +12450,16 @@ header .overlay {
   .logo-pna{
     width: 60%;
   }
-  
+  #inmuta-logo{
+    margin-left: 30px;
+  }
 }
 
 /* Media Query cellphones*/
 
 @media (max-width: 575.98px) {
   .fs-58 {
-    font-size: 3.2rem;
+    font-size: 2.5rem;
   }
   .fs-21 {
     font-size: 1.313rem;
@@ -12483,6 +12485,7 @@ header .overlay {
   }
   #inmuta-logo {
     display: inline-block;
+    padding-left: 15px;
   }
 
   #como-trabajamos {
@@ -12547,5 +12550,12 @@ header .overlay {
 
  #contacto{
    padding-bottom: 3rem;
+ }
+
+
+
+ .container-nav{
+   margin-left: auto;
+   margin-right: auto;
  }
 }
