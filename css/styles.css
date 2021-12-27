@@ -12332,7 +12332,7 @@ p {
 .box-solucion {
   width: 90%;
   position: absolute;
-  top: 93%;
+  top: 95%;
   left: 5%;
   transform: translateY(0%);
   z-index: 1000;
@@ -12462,7 +12462,7 @@ header .overlay {
     font-size: 2.5rem;
   }
   .fs-21 {
-    font-size: 1.313rem;
+    font-size: 1.20rem;
   }
 
   .fs-24 {
@@ -12557,5 +12557,9 @@ header .overlay {
  .container-nav{
    margin-left: auto;
    margin-right: auto;
+ }
+
+ .btn-mobile{
+   font-size: 1rem;
  }
 }
