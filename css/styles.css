@@ -12345,8 +12345,9 @@ p {
 
 .container-logo {
   background-image: url(../assets/img/Inmuta-Isotipo-White.png);
-  background-size: 280px;
+  background-size: 80%; 
   background-repeat: no-repeat;
+ 
 }
 
 .vertical-divider {
@@ -12453,6 +12454,11 @@ header .overlay {
   #inmuta-logo{
     margin-left: 30px;
   }
+  .container-logo {
+   background-size: 50%; 
+   
+   
+  }
 }
 
 /* Media Query mobile*/
@@ -12545,11 +12551,12 @@ header .overlay {
 
   }
  #solucion-segura{
-  padding-top: 30px;
+  padding-top: 10px;
  }
  
  .masthead{
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
  }
 
  .logo-inmuta{
@@ -12563,8 +12570,6 @@ header .overlay {
    padding-bottom: 3rem;
  }
 
-
-
  .container-nav{
    margin-left: auto;
    margin-right: auto;
@@ -12573,4 +12578,30 @@ header .overlay {
  .btn-mobile{
    font-size: 1rem;
  }
+ 
+header {
+    height: 67vh;
+}
+
+.container-logo{
+    background-size: 20vh; 
+}
+
+.footer-box{
+  margin-top: 100px;
+
+}
+
+.logo-footer {
+  max-width: 500px;
+  top: 25px;
+  width: 100%;
+}
+
+.box-interconomy{
+  width: 70%;
+  top: -10%;
+  left: 15%;
+}
+
 }
